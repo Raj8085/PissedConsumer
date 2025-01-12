@@ -45,7 +45,7 @@ function App() {
         <div className="absolute -left-4 top-1/2 -translate-y-1/2">
           <div className="relative h-32 w-24">
             <img
-              src="public/Images/png-clipart-white-flower-bouquet-illustration-flower-funeral-home-coffin-cemetery-funeral-miscellaneous-flower-arranging-removebg-preview (1).png"
+              src="/Images/png-clipart-white-flower-bouquet-illustration-flower-funeral-home-coffin-cemetery-funeral-miscellaneous-flower-arranging-removebg-preview (1).png"
               alt="Decorative flowers"
               className="object-contain"
             />
@@ -54,7 +54,7 @@ function App() {
         <div className="absolute -right-4 top-1/2 -translate-y-1/2">
           <div className="relative h-32 w-24">
             <img
-              src="public/Images/png-clipart-white-flower-bouquet-illustration-flower-funeral-home-coffin-cemetery-funeral-miscellaneous-flower-arranging-removebg-preview (1).png"
+              src="/Images/png-clipart-white-flower-bouquet-illustration-flower-funeral-home-coffin-cemetery-funeral-miscellaneous-flower-arranging-removebg-preview (1).png"
               alt="Decorative flowers"
               className="object-contain"
             />
