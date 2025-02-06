@@ -160,7 +160,7 @@ function FeatureFooter() {
       </main>
 
       {/* FOOTER */}
-      <footer className="bg-white border-t py-8">
+      {/* <footer className="bg-white border-t py-8">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <div>
@@ -201,9 +201,8 @@ function FeatureFooter() {
             &copy; {new Date().getFullYear()} PissedConsumer. All rights reserved.
           </p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
-
 export default FeatureFooter;
