@@ -1,8 +1,3 @@
-
-
-
-
-
 import  { useState } from 'react';
 import PopComponent from './PopComponent';
 // import SupportImage from './support-image.png'; 
@@ -205,7 +200,6 @@ function AmazonCustomerSupport() {
                 <option value="devices">Devices</option>
               </select>
             </div>
-
             <div className="mb-6">
               <label htmlFor="issue" className="block text-gray-700 font-medium mb-2">
                 Describe Your Issue:
@@ -230,7 +224,6 @@ function AmazonCustomerSupport() {
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="bg-blue-700 text-white text-center py-6">
         <p>
           © {new Date().getFullYear()} Amazon Support Services. All Rights Reserved. |{' '}

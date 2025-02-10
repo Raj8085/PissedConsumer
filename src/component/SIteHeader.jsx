@@ -221,13 +221,13 @@ export function SiteHeader() {
           <div className="flex  flex-col items-start space-y-4 p-4 lg:flex-row lg:items-center lg:justify-end lg:space-x-6 lg:space-y-0 lg:p-0">
             {/* Navigation Links */}
             <nav className="flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-6">
-              <Link to="/reviews" className="text-sm font-medium hover:underline">
+              <Link to="/review" className="text-sm font-medium hover:underline">
                 Reviews
               </Link>
 
-              <Link to="/categories" className="text-sm font-medium hover:underline">
+              {/* <Link to="/categories" className="text-sm font-medium hover:underline">
                 Categories
-              </Link>
+              </Link> */}
               {/* Companies Dropdown */}
               <div className="relative">
                 {/* Button that toggles the dropdown */}
@@ -258,13 +258,13 @@ export function SiteHeader() {
                 
                 {isCompaniesOpen && (
                   <div className="mt-2 w-48 rounded-md border bg-white shadow-md lg:absolute lg:mt-1">
-                    <Link
+                    {/* <Link
                       to="/company/option1"
                       className="block px-4 py-2 text-sm hover:bg-gray-100"
                       onClick={() => setIsCompaniesOpen(false)}
                     >
                       Amazon
-                    </Link>
+                    </Link> */}
                     <Link
                       to="/facebook/option2"
                       className="block px-4 py-2 text-sm hover:bg-gray-100"
@@ -306,6 +306,13 @@ export function SiteHeader() {
                       onClick={() => setIsCompaniesOpen(false)}
                     >
                       Microsoft support
+                    </Link>
+                    <Link
+                      to="/amazon/option1"
+                      className="block px-4 py-2 text-sm hover:bg-gray-100"
+                      onClick={() => setIsCompaniesOpen(false)}
+                    >
+                      Amazon
                     </Link>
                     <Link
                       to="/home/option8"

@@ -7,157 +7,112 @@ export default function Footer() {
       <div className="border-b border-gray-700">
         <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between">
           <div className="flex flex-col sm:flex-row items-start sm:items-center">
-            <a
-              href="#"
+            <Link
+              to="#"
               className="text-sm mb-2 sm:mb-0 sm:mr-6 hover:underline"
             >
               Brokerage Customer Relationship Summary
-            </a>
-            <a href="#" className="text-sm hover:underline">
+            </Link>
+            <Link to="#" className="text-sm hover:underline">
               FINRA’s BrokerCheck
-            </a>
+            </Link>
           </div>
           <div className="mt-4 sm:mt-0">
             {/* Social Icons Row (replace # with real links) */}
             <div className="flex space-x-4 text-xl">
-              <a href="#" aria-label="Twitter (X)" className="hover:opacity-70">
+              <Link to="#" aria-label="Twitter (X)" className="hover:opacity-70">
                 <i className="fa-brands fa-x-twitter"></i>
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="#"
                 aria-label="Instagram"
                 className="hover:opacity-70"
               >
                 <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a href="#" aria-label="LinkedIn" className="hover:opacity-70">
+              </Link>
+              <Link to="#" aria-label="LinkedIn" className="hover:opacity-70">
                 <i className="fa-brands fa-linkedin"></i>
-              </a>
-              <a href="#" aria-label="TikTok" className="hover:opacity-70">
+              </Link>
+              <Link to="#" aria-label="TikTok" className="hover:opacity-70">
                 <i className="fa-brands fa-tiktok"></i>
-              </a>
-              <a href="#" aria-label="YouTube" className="hover:opacity-70">
+              </Link>
+              <Link to="#" aria-label="YouTube" className="hover:opacity-70">
                 <i className="fa-brands fa-youtube"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-
       {/* Middle row: Columns */}
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {/* Product Column */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Product</h3>
+            <h3 className="text-lg font-semibold mb-4">About</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:underline">
-                  Invest
-                </a>
+                <Link to="/about-pissed" className="hover:underline">
+                  About PissedConsumer
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Credit Card
-                </a>
+                <Link to="/press" className="hover:underline">
+                  Press Page
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Gold
-                </a>
+                <Link to="/blog" className="hover:underline">
+                  Blog
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Crypto
-                </a>
+                <Link to="/faq-consumer" className="hover:underline">
+                  FAQ For Consumer
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Retirement
-                </a>
+                <Link to="/faq-consumer" className="hover:underline">
+                  FAQ For Companies
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Options
-                </a>
+                <Link to="/career" className="hover:underline">
+                  Careers
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Futures
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Robinhood Legend
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Learn
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Snacks
-                </a>
+                <Link to="/contact-pissed" className="hover:underline">
+                  Contact pissed consumer
+                </Link>
               </li>
             </ul>
           </div>
 
           {/* Company Column */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
+            <h3 className="text-lg font-semibold mb-4">Browse</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:underline">
-                  About us
-                </a>
+                <Link to="/company" className="hover:underline">
+                  Companies
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Blog
-                </a>
+                <Link to="/review" className="hover:underline">
+                  Review
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Partner With Us
-                </a>
+                <Link to="/category" className="hover:underline">
+                  Category
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Affiliates
-                </a>
+                <Link to="/attoney" className="hover:underline">
+                State Attorneys General Contacts
+                </Link>
               </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Press
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Commitments
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Our Customers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Investor Relations
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Support
-                </a>
-              </li>
+              
             </ul>
           </div>
 
@@ -193,20 +148,30 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Podcast
-                </a>
+                <Link to="/list-bussiness" className="hover:underline">
+                  List Your Business
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Investor Index
-                </a>
+                <Link to="/tips-consumer" className="hover:underline">
+                  Tips For Consumers
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline">
-                  Robinhood Merch
-                </a>
+                <Link to="/tips-company" className="hover:underline">
+                  Tips For Companies
+                </Link>
               </li>
+              {/* <li>
+                <Link to="#" className="hover:underline">
+                  PissedConsumer Club
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="hover:underline">
+                  Advertise with us 
+                </Link>
+              </li> */}
             </ul>
           </div>
         </div>
