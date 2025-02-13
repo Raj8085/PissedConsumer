@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./component/Home/Home";
 import Review from "./component/Review/Review";
 import { SiteHeader } from "./component/SIteHeader";
-import AmazonCustomerSupport from "./component/Amazon/AmazonCustomerSupport";
 import FacebookSupport from "./component/Facebook/Facebook";
 import TechnologyCybersecuritySupport from "./component/TechnologySupport/TechnologyCybersecuritySupport";
 import LegalConsultant from "./component/LegalPage/LegalConsultant";
@@ -39,6 +38,21 @@ import CompanyListingPage from "./component/RobinPage/component/Footer/Browse/Co
 import Reviews from "./component/RobinPage/component/Footer/Browse/Reviews";
 import BrowseCategoriesPage from "./component/RobinPage/component/Footer/Browse/Catogory";
 import AttorneyGeneralContacts from "./component/RobinPage/component/Footer/Browse/StateAttorney";
+import AmazonCustomer from "./component/Amazon/AmazonCustomerSupport";
+import HeroSection from "./component/TrafficStar/TrafficComponent/Hero";
+import FeaturesSectionTraffic from "./component/TrafficStar/TrafficComponent/Features";
+import StatisticsSection from "./component/TrafficStar/TrafficComponent/Static";
+import TestimonialsSectionTraffic from "./component/TrafficStar/TrafficComponent/Testimonial";
+import Header from "./component/TrafficStar/TrafficComponent/Header";
+import AboutTraffic from "./component/TrafficStar/About";
+import Services from "./component/TrafficStar/Services";
+import Contact from "./component/TrafficStar/Contact";
+import Advertisers from "./component/TrafficStar/Advise";
+import Publishers from "./component/TrafficStar/Publishers";
+import Pricing from "./component/TrafficStar/Pricing";
+import Blog from "./component/TrafficStar/Blog";
+import AuthForms from "./component/UserCredential/Auth";
+import WriteReviewPage from "./component/UserCredential/WriteReviewPage";
 // import TipsConsumer from "./component/RobinPage/component/Footer/TipsForConsumer"
 
 const App = () => {
@@ -49,7 +63,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/reviews" element={<Review />} />
-          <Route path="/amazon/option1" element={<AmazonCustomerSupport />} />
+          <Route path="/amazon-support/option1" element={<AmazonCustomer/>} />
           <Route path="/facebook/option2" element={<FacebookSupport />} />
           <Route
             path="/techno-support/option3"
@@ -64,7 +78,25 @@ const App = () => {
           <Route path="/home/option8" element={<HomeSelter />} />
           <Route path="/ios/option9" element={<HomeIosSection />} />
           <Route path="/content/option10" element={<ContentConsumer />} />
-          {/* <Route path="/vpn/option11" element={<HomeVpnApp/>}/> */}
+          {/* <Route path="/ama/option13" element={<Ama/>} /> */}
+          <Route path="/traffic/option12" element={
+              <>
+              <Header/>
+                <HeroSection/>
+                <FeaturesSectionTraffic/>
+                <StatisticsSection/>
+                <TestimonialsSectionTraffic/>
+              </>
+            } />
+            <>
+            <Route path="/about" element={<AboutTraffic/>} />
+             <Route path="/services" element={<Services/>} />
+             <Route path="/contact" element={<Contact/>} />
+             <Route path="/advertisers" element={<Advertisers/>} />
+             <Route path="/publishers" element={<Publishers/>} />
+             <Route path="/pricing" element={<Pricing/>} />
+             <Route path="/blog" element={<Blog/>} />
+             </>
           <Route
             path="/vpn/option11"
             element={
@@ -101,6 +133,8 @@ const App = () => {
           <Route path="/review" element={<Reviews />} />
           <Route path="/category" element={<BrowseCategoriesPage />} />
           <Route path="/attoney" element={<AttorneyGeneralContacts />} />
+          <Route path="/auth" element={<AuthForms/>} />
+          <Route path="/write-review" element={<WriteReviewPage/>} />
         </Routes>
       </main>
       <Footer />

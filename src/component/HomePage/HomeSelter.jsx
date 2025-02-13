@@ -153,42 +153,35 @@ const HomeShelter = () => {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <div
-        id="home"
-        className="pt-20 flex flex-col-reverse md:flex-row items-center justify-center gap-8 px-4 py-10 md:py-20 bg-gray-50"
-        style={{
-          backgroundImage: "url('/Housing-pop-up.jpg')",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        {/* Overlay for readability */}
-        <div className="absolute inset-0 bg-black/40 -z-10"></div>
-
-        <div className="max-w-xl text-center md:text-left space-y-4 bg-white/80 p-6 rounded-lg shadow-md">
-          <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
-            Find Your Dream Home
+      <div className="relative h-screen">
+        <div className="absolute inset-0 bg-black/50 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-20" />
+        <img
+          src="/HomeSelter.webp"
+          alt="Luxury Home Background"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        
+        <div className="relative z-30 h-full flex flex-col items-center justify-center px-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-white text-center mb-6">
+            Find Your Dream Home Today
           </h1>
-          <p className="text-gray-700">
-            Affordable, secure, and easy payment options for all living spaces.
+          <p className="text-xl md:text-2xl text-white text-center mb-8">
+            Your Journey to Home Ownership Starts Here
           </p>
-          <a
-            href="#contact"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-md shadow hover:bg-blue-700 transition font-medium"
-          >
-            Get Started Now
-          </a>
+          
+          
         </div>
       </div>
+
+      
 
       {/* Modal */}
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Welcome Pop-up"
-        className="relative max-w-lg w-full mx-auto mt-20 p-6 bg-white rounded shadow-md outline-none"
+        className="relative max-w-lg w-full mx-auto mt-60 p-6 bg-white rounded shadow-md outline-none"
         overlayClassName="fixed inset-0 bg-black/50 flex items-start justify-center z-50"
         shouldCloseOnOverlayClick
       >
@@ -199,7 +192,7 @@ const HomeShelter = () => {
           &times;
         </button>
         <img
-          src="/Housing-pop-up.jpg"
+          src="/AboutPissed/Housing-pop-up.jpg"
           alt="Welcome Popup"
           className="w-full h-auto rounded"
         />

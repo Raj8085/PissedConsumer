@@ -308,11 +308,11 @@ export function SiteHeader() {
                       Microsoft support
                     </Link>
                     <Link
-                      to="/amazon/option1"
+                      to="/amazon-support/option1"
                       className="block px-4 py-2 text-sm hover:bg-gray-100"
                       onClick={() => setIsCompaniesOpen(false)}
                     >
-                      Amazon
+                      Amazon support
                     </Link>
                     <Link
                       to="/home/option8"
@@ -336,13 +336,19 @@ export function SiteHeader() {
                       Content Support
                     </Link>
                     <Link
+                      to="/traffic/option12"
+                      className="block px-4 py-2 text-sm hover:bg-gray-100"
+                      onClick={() => setIsCompaniesOpen(false)}
+                    >
+                      Traffic star
+                    </Link>
+                    <Link
                       to="/vpn/option11"
                       className="block px-4 py-2 text-sm hover:bg-gray-100"
                       onClick={() => setIsCompaniesOpen(false)}
                     >
                       Vpn Support
                     </Link>
-                  
                   </div>
                 )}
               </div>
@@ -359,15 +365,19 @@ export function SiteHeader() {
               </div>
 
               {/* Action Buttons */}
+              <Link to="/write-review">
               <Button variant="destructive" className="w-full lg:w-auto">
                 Write review
               </Button>
-              <Button variant="outline" className="w-full lg:w-auto">
+              </Link>
+              {/* <Button variant="outline" className="w-full lg:w-auto">
                 For Business
-              </Button>
+              </Button> */}
+              <Link to="/auth">
               <Button variant="ghost" className="w-full lg:w-auto">
                 Login
               </Button>
+              </Link>
             </div>
           </div>
         </div>
