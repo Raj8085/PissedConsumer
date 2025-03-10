@@ -1,16 +1,20 @@
 import { useState } from 'react';
 import { Mail, Lock, User, Eye, EyeOff, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+
 
 const AuthForms = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
+    fullName: '',
     email: '',
     password: '',
-    confirmPassword: ''
+    phone: '' 
   });
   const [errors, setErrors] = useState({});
+
+  const navigate = useNavigate();
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -43,26 +47,54 @@ const AuthForms = () => {
     }
 
     if (!isLogin) {
-      if (!formData.name) {
-        newErrors.name = 'Name is required';
+      if (!formData.fullName) {
+        newErrors.fullName = 'Name is required';
       }
 
-      if (!formData.confirmPassword) {
-        newErrors.confirmPassword = 'Please confirm your password';
-      } else if (formData.password !== formData.confirmPassword) {
-        newErrors.confirmPassword = 'Passwords do not match';
-      }
+      if (!formData.phone) {
+        newErrors.phone = 'Please enter your phone number';
+      } 
     }
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (validateForm()) {
+  //     // Handle form submission
+  //     console.log('Form submitted:', formData);
+  //   }
+  // };
+
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (validateForm()) {
-      // Handle form submission
-      console.log('Form submitted:', formData);
+      const url = isLogin ? 'https://ozleaddatabase-1.onrender.com/api/login' : 'https://ozleaddatabase-1.onrender.com/api/register';
+      const userData = isLogin
+        ? { email: formData.email, password: formData.password }
+        : { fullName: formData.fullName, email: formData.email, phone: formData.phone, password: formData.password };
+      
+      try {
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(userData),
+        });
+        const data = await response.json();
+        if (response.ok) {
+          console.log('Success:', data);
+          alert(isLogin ? 'Login successful!' : 'Registration successful!');
+          navigate('/');
+        } else {
+          alert(data.message || 'Something went wrong!');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Error connecting to the server.');
+      }
     }
   };
 
@@ -73,7 +105,7 @@ const AuthForms = () => {
       name: '',
       email: '',
       password: '',
-      confirmPassword: ''
+      phone: ''
     });
   };
 
@@ -95,21 +127,21 @@ const AuthForms = () => {
           {/* Name Field - Only for Register */}
           {!isLogin && (
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
               <div className="relative">
                 <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
                 <input
                   type="text"
-                  name="name"
-                  value={formData.name}
+                  name="fullName"
+                  value={formData.fullName}
                   onChange={handleInputChange}
                   className={`w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 ${
-                    errors.name ? 'border-red-500' : 'border-gray-300'
+                    errors.fullName ? 'border-red-500' : 'border-gray-300'
                   }`}
                   placeholder="Enter your name"
                 />
               </div>
-              {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
+              {errors.fullName && <p className="text-red-500 text-sm mt-1">{errors.fullName}</p>}
             </div>
           )}
 
@@ -161,22 +193,22 @@ const AuthForms = () => {
           {/* Confirm Password Field - Only for Register */}
           {!isLogin && (
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Confirm Password</label>
+              <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
                 <input
-                  type={showPassword ? 'text' : 'password'}
-                  name="confirmPassword"
-                  value={formData.confirmPassword}
+                  type="phone"
+                  name="phone"
+                  value={formData.phone}
                   onChange={handleInputChange}
                   className={`w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 ${
-                    errors.confirmPassword ? 'border-red-500' : 'border-gray-300'
+                    errors.phone ? 'border-red-500' : 'border-gray-300'
                   }`}
-                  placeholder="Confirm your password"
+                  placeholder="Confirm your phone number"
                 />
               </div>
-              {errors.confirmPassword && (
-                <p className="text-red-500 text-sm mt-1">{errors.confirmPassword}</p>
+              {errors.phone && (
+                <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
               )}
             </div>
           )}

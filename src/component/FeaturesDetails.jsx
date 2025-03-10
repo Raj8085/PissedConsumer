@@ -10,12 +10,12 @@ const reviews = [
     reviewLink: "#"
   },
   {
-    company: "Kuaishou",
-    logo: "/Images/kuaishou.png",
-    date: "Jan 11, 2025",
-    preview: "لقد تم تسجيل الدخول الى البرنامج بشكل رئيسي وصحيح ولكن يتم اخراجي من التطبيق او الاتصال على رقم الهاتف ولا اعرف ماذا افعل",
-    reviewLink: "#"
-  },
+    "company": "Fast Hand", 
+    "logo": "/Images/kuaishou.png",
+    "date": "Jan 11, 2025",
+    "preview": "I have successfully logged into the application, but I keep getting logged out or receiving phone calls, and I don't know what to do.",
+    "reviewLink": "#"
+},
   {
     company: "Netspend",
     logo: "/Images/netspend.png",
