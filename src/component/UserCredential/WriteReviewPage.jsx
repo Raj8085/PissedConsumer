@@ -350,16 +350,12 @@ const WriteReviewPage = () => {
       setSubmitStatus({ type: '', message: '' });
       
       try {
-        // Prepare the data for the API
         const reviewData = {
           ...formData,
           rating,
-          // Convert image data if needed - this depends on your API requirements
-          // This example assumes you'll need to handle image files separately
-          // or that the API handles base64 strings
         };
         
-        // Make the API request
+        
         const response = await fetch('https://ozleaddatabase-1.onrender.com/api/reviews', {
           method: 'POST',
           headers: {
