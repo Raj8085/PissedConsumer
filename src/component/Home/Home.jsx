@@ -1,6 +1,7 @@
 import FeatureDetails from "../FeaturesDetails";
 import { HeroSection } from "../HeroSection";
-import MiddleCard from "../MiddleCard";
+import TrustSection from "../TrustUs";
+// import MiddleCard from "../MiddleCard";
 
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <>
         <HeroSection/>
       <FeatureDetails/>
-      <MiddleCard/>  
+      <TrustSection/>
+      {/* <MiddleCard/>   */}
     </>
   )
 }

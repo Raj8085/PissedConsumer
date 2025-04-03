@@ -1,10 +1,7 @@
-import { BookOpen, AlertCircle, HelpCircle } from 'lucide-react';
-
 function LegalContent() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      
       <header className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-semibold text-gray-900">Legal Information</h1>
@@ -32,7 +29,7 @@ function LegalContent() {
           {/* What Works Section */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
-              <BookOpen className="h-5 w-5 mr-2 text-blue-600" />
+              <span className="text-blue-600 mr-2">📚</span> {/* Book Icon */}
               What Works
             </h2>
             <ul className="space-y-2 text-gray-700">
@@ -46,7 +43,7 @@ function LegalContent() {
           {/* What Doesn't Work Section */}
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
-              <AlertCircle className="h-5 w-5 mr-2 text-red-600" />
+              <span className="text-red-600 mr-2">⚠️</span> {/* Warning Icon */}
               What doesn&apos;t work
             </h2>
             <ul className="space-y-2 text-gray-700">
@@ -58,7 +55,7 @@ function LegalContent() {
           {/* Common Issues Section */}
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
-              <HelpCircle className="h-5 w-5 mr-2 text-green-600" />
+              <span className="text-green-600 mr-2">💬</span> {/* Help Icon */}
               The Most Common Issues We Are Contacted About
             </h2>
             <ul className="space-y-2 text-gray-700">

@@ -30,9 +30,11 @@
 //   )
 // }
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
+
+
+// import { Button } from "@/components/ui/button";
+// import { Input } from "@/components/ui/input";
+// import { Search } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -41,7 +43,7 @@ export function HeroSection() {
         {/* Background image & overlay */}
         <div className="absolute inset-0">
           <img
-            src="/hero-img-home (1).jpg"
+            src="/new-hero-image-review.jpg"
             alt="Hero background"
             className="h-full w-full object-cover"
           />
@@ -58,7 +60,7 @@ export function HeroSection() {
             </h1>
 
             {/* Search + Button (stacks on mobile, row on larger screens) */}
-            <div className="flex w-full max-w-xl flex-col items-center space-y-3 sm:flex-row sm:space-x-2 sm:space-y-0 h-[30rem]">
+            {/* <div className="flex w-full max-w-xl flex-col items-center space-y-3 sm:flex-row sm:space-x-2 sm:space-y-0 h-[30rem]">
               <Input
                 type="text"
                 placeholder="Research Company"
@@ -70,7 +72,7 @@ export function HeroSection() {
               >
                 <Search className="h-5 w-5" />
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <h1>Latest Reviews From Over 27 Million Consumers</h1> */}

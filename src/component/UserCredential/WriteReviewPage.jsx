@@ -294,7 +294,7 @@
 //   );
 // };
 
-// export default WriteReviewPage;
+// export default WriteReviewPage; 
 
 
 import { useState } from 'react';
@@ -315,6 +315,7 @@ const WriteReviewPage = () => {
     location: '',
     wouldRecommend: null
   });
+
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState({ type: '', message: '' });
@@ -354,8 +355,6 @@ const WriteReviewPage = () => {
           ...formData,
           rating,
         };
-        
-        
         const response = await fetch('https://ozleaddatabase-1.onrender.com/api/reviews', {
           method: 'POST',
           headers: {
@@ -663,5 +662,4 @@ const WriteReviewPage = () => {
     </div>
   );
 };
-
 export default WriteReviewPage;

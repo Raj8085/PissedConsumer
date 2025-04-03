@@ -17,93 +17,77 @@ export default function TermOfUse() {
             <div className="space-y-6">
               <section>
                 <h2 className="text-xl font-semibold mb-4 md:ml-10">
-                  1. PissedConsumer Terms & Conditions
+                  1. Write a Review Terms & Conditions
                 </h2>
                 <p className="text-sm leading-relaxed text-muted-foreground md:px-10">
-                  www.PissedConsumer.com (the “Site”, “We”, “Us”, “Our”,
-                  “PissedConsumer”, “PissedConsumer.com”) is an online forum
-                  created to help keep consumers informed. We are located in Las
-                  Vegas, NV. Mailing address is: Consumer Opinion LLC 1930
-                  Village Center Circle #3-6853 Las Vegas, NV 89134 These Terms
-                  of Use govern the information posters’ (“You”, “Your”) use of
-                  the Site and form a binding legal agreement
-                  (&quot;Agreement&quot;) between You and Us. Through the use of
-                  this Agreement, We are placing legal conditions on Your use of
-                  the Site and its services (the “Services”), and making certain
-                  promises to You. Please read the Agreement carefully prior to
-                  using the Site and/or the Services. You are solely responsible
-                  for the content or information, including, without limitation,
-                  the title and body of the post, You publish or display
-                  (hereinafter, &quot;post&quot;) anywhere on the Site. By
-                  submitting the post or using the Site or the Services in any
-                  other manner, You agree to be bound by the terms and
-                  conditions of this Agreement (the &quot;Terms&quot;). You must
-                  agree to all of the Terms in this Agreement. If You do not
-                  agree to the Terms, You are not permitted to use the Site and
-                  the Services. If You do not understand all of the terms in
-                  this Agreement, then You may wish to consult with an attorney
-                  before using the Services. We reserve the right, at Our sole
-                  discretion, to change, modify, add the Terms or portions of
-                  the Terms or remove portions of the Terms, at any time. You
-                  are responsible for checking the Terms for changes. Your
-                  continued use of the Site following the posting of changes
-                  shall mean that You accept and agree to the changes. Persons
-                  who are under 18 years old may not use either the Site or the
-                  Services in any manner. You must be 18 years old or older and
-                  have the requisite power and authority to enter into these
-                  Terms to access or use the Site. By submitting a post and/or
-                  using the Site or the Services in any other manner, You
-                  represent and warrant that You are at least 18 years old. By
-                  using or engaging with the Site or the Services, You also
-                  acknowledge and agree that You are permitted by Your
-                  jurisdiction’s applicable laws to use and/or engage with the
-                  Site or the Services. We reserve the right to immediately
-                  suspend or terminate Your registration with the Site and
-                  remove Your posts, without notice, upon any breach of this
-                  Agreement by You which is brought to Our attention. Your
-                  registration with the Site is for Your sole, personal use. You
-                  may not authorize others to use Your user identification,
-                  password or any of the MD5 hashing algorithms (please see Our
-                  Privacy Policy, section “Cookies”), and You may not assign or
-                  otherwise transfer Your account to any other person or entity.
-                  You understand that Your use of the Site is at Your own risk,
-                  and that such use may expose You to content that may be
-                  offensive, objectionable, or otherwise inappropriate. In no
-                  event shall We be liable to anyone for any delays,
-                  inaccuracies, errors or omissions related to content on the
-                  Site, or any harm related to use or transmission of such
-                  content. You may post content (reviews, comments, questions,
-                  updates, etc.) on the Site either anonymously or having
-                  registered an account with Us. Please note, however, that if
-                  You are commenting on a review anonymously and are including a
-                  link in Your comment, that link will be masked. In order to
-                  have links in Your comments displayed as unmasked, You need to
-                  post them as a registered user of the Site. Also, in order to
-                  combat spam, we only allow only three links in comments per
-                  one registered user over user&apos;s life-time on the Site. As
-                  You submit Your public reviews, We reserve the right to send
-                  them directly to companies Your reviews are submitted about to
-                  expedite a resolution process. By creating an account or
-                  providing Your email address, You agree to receive certain
-                  communications in connection with the Site and the Services,
-                  including, but not limited to email letters with information
-                  and notifications. PissedConsumer.com offers You a possibility
-                  to make a call to a representative of a company of Your
-                  choice, provided that such a company is present on the Site
-                  and that We have a corresponding telephone number to make such
-                  a call. In addition to connecting the call for You, We offer a
-                  service to United States-based users which produces a written
-                  transcript of Your call with the representative which is
-                  produced by an artiï¬ÂÂcial intelligence tool. By using this
-                  call functionality, You acknowledge and expressly consent to
-                  the recording and transcription of the call, and You consent
-                  to Our interception of such call. You agree to inform all
-                  parties to the call that recording and transcription are
-                  taking place, and understand that if any participant objects,
-                  You must immediately terminate the call. By proceeding with
-                  the call, You consent to the collection and processing of Your
-                  transcript as described in these Terms and Our Privacy Policy
-                  which is an integral part of these Terms.
+                  www.WriteAReview.com (the “Site”, “We”, “Us”, “Our”, “Write a
+                  Review”) is an online platform created to empower consumers by
+                  providing a space to share experiences, opinions, and
+                  feedback. We are located in Las Vegas, NV. Our mailing address
+                  is: Consumer Opinion LLC, 1930 Village Center Circle #3-6853,
+                  Las Vegas, NV 89134. These Terms of Use govern the use of the
+                  Site and services (“Services”) provided, and form a binding
+                  legal agreement (“Agreement”) between You (“You”, “Your”) and
+                  Us (“We”, “Our”). Please read this Agreement carefully before
+                  using the Site and Services. By submitting content, using the
+                  Site, or interacting with the Services in any way, You agree
+                  to be bound by these Terms. If You do not agree with the
+                  Terms, You are not permitted to use the Site or the Services.
+                  You are solely responsible for any content or information
+                  (including, without limitation, the title and body of posts)
+                  You post or display on the Site (“post”). If You post any
+                  content or use the Site, You agree to be bound by the terms
+                  and conditions of this Agreement. You must agree to all the
+                  Terms to continue using the Site and Services. If You disagree
+                  with any part of these Terms, You should refrain from using
+                  the Site. If You do not understand all of the terms, consider
+                  consulting an attorney before proceeding. We reserve the right
+                  to modify, update, or change these Terms at any time. You are
+                  responsible for reviewing the Terms periodically for any
+                  changes. Continued use of the Site following any such changes
+                  constitutes Your acceptance of the revised Terms. Users must
+                  be 18 years of age or older to use the Site and Services. By
+                  submitting a post or using the Site, You confirm that You are
+                  at least 18 years old and have the legal authority to enter
+                  into this Agreement. You also acknowledge that You are
+                  permitted by applicable local laws to access or use the Site
+                  and Services. If You breach these Terms, We reserve the right
+                  to suspend or terminate Your access to the Site and remove any
+                  posts without notice. Your registration with the Site is for
+                  personal use only. You are prohibited from sharing Your
+                  account details, including Your user ID or password, or
+                  transferring Your account to another person or entity. You
+                  understand that Your use of the Site is at Your own risk and
+                  may expose You to content that could be offensive,
+                  inappropriate, or objectionable. We are not liable for any
+                  delays, errors, or omissions in the content displayed on the
+                  Site, nor for any harm caused by the transmission or use of
+                  such content. You may post content (reviews, comments,
+                  questions, updates, etc.) on the Site either anonymously or by
+                  registering an account with Us. However, please note that any
+                  links included in anonymous comments will be masked. To
+                  display unmasked links in Your comments, You must be a
+                  registered user. To combat spam, we limit the number of links
+                  to three per user throughout their lifetime on the Site. By
+                  submitting reviews, We reserve the right to share them
+                  directly with the companies Your reviews pertain to in order
+                  to facilitate a resolution process. When creating an account
+                  or providing Your email address, You agree to receive
+                  communications related to the Site and Services, including
+                  emails with important notifications and updates. Write a
+                  Review also offers users the opportunity to connect directly
+                  with a company representative via phone, provided the company
+                  is listed on the Site and we have the relevant contact
+                  details. We also offer a service to U.S.-based users that
+                  generates a written transcript of the call using artificial
+                  intelligence. By using this call feature, You consent to the
+                  recording and transcription of Your call, and You agree to
+                  notify all participants that the call is being recorded and
+                  transcribed. If any participant objects, the call must be
+                  terminated immediately. By proceeding with the call, You also
+                  consent to the collection and processing of the transcript as
+                  outlined in these Terms and Our Privacy Policy, which forms an
+                  integral part of this Agreement.
                 </p>
               </section>
 
@@ -155,22 +139,43 @@ export default function TermOfUse() {
 
               <section>
                 <h2 className="text-xl font-semibold mb-4 md:ml-10">
-                  3. Indemnification
+                  2. Online Conduct
                 </h2>
                 <p className="text-sm leading-relaxed text-muted-foreground md:px-10">
-                  You will defend, indemnify and hold Us and Our subsidiaries,
-                  affiliates, officers, agents, employees, partners and
-                  licensors harmless from any claims, demands, losses, costs,
-                  liabilities and expenses (including, but not limited to
-                  reasonable attorneys&apos; fees) relating to or arising out of
-                  Your use of the Site, including, but not limited to, any
-                  breach by You of the Terms of the Agreement, Your violation of
-                  applicable laws, or Your violation of any rights of another
-                  person or entity. You agree to cooperate as fully as
-                  reasonably required in the defense of any such claim. We
-                  reserve the right to assume the exclusive defense and control
-                  of any matter otherwise subject to indemnification by You,
-                  provided that You shall remain liable for any such claim.
+                  You may post content on the Site without creating an account
+                  with Us. However, You agree not to post any defamatory,
+                  abusive, obscene, profane, offensive, threatening, harassing,
+                  racially offensive, pornographic, spam, or illegal material,
+                  or any content that infringes upon the rights of others
+                  (including, but not limited to, intellectual property rights
+                  and rights of privacy and publicity). You will use the Site in
+                  compliance with all applicable laws and regulations. By
+                  submitting content on the Site, You represent and warrant that
+                  the information is truthful and accurate to the best of Your
+                  knowledge. You will not post, distribute, or reproduce
+                  copyrighted material, trademarks, or other proprietary content
+                  without prior written consent from the rights holder, except
+                  as permitted by law. Please note that we are not responsible
+                  for policing content beyond what is required by applicable
+                  laws and regulations. You also agree that Your review reflects
+                  Your genuine experience and is Your honest opinion about the
+                  product or service. You will not impersonate another person or
+                  entity. You certify that You have not received any payment or
+                  incentive to post reviews about any business or individual on
+                  the Site. Write a Review maintains a zero-tolerance policy for
+                  false or misleading reviews. You will not use the Site for any
+                  commercial purpose, including, but not limited to, promoting a
+                  business or any commercial venture, or using the Site for
+                  advertising or marketing purposes. NO THIRD-PARTY
+                  BENEFICIARIES: If You are not a direct party to this
+                  Agreement, You do not have any rights or benefits under it.
+                  Therefore, You are not entitled to complain or take action if
+                  You believe that We are in violation of the Terms. Should You
+                  wish to obtain benefits under this Agreement, You may contact
+                  Us directly to negotiate a separate agreement. Please use our
+                  &quot;Contact Write a Review&quot; form to initiate such
+                  discussions. Without such an agreement, no third party shall
+                  have any rights or claims under this Agreement.
                 </p>
               </section>
 
@@ -179,42 +184,41 @@ export default function TermOfUse() {
                   4. Removal of Information
                 </h2>
                 <p className="text-sm leading-relaxed text-muted-foreground md:px-10">
-                  If You wish to create a new account, You may do it at any
-                  time. You can edit or remove Your prior posts. If You wish to
-                  edit or remove Your prior posts, You can do so through Your
-                  user profile, by submitting a notarized letter, a court order
-                  or by participating in an LVP. You shall acknowledge that the
-                  same rules apply to removal of cross-posts of Your posts from
-                  Our pages in any and all social networks. For more details
-                  regarding removal of information please visit Our FAQ for
-                  Consumers and FAQ for Companies. You can add supplemental
-                  information to the review if the review was created under Your
-                  account (please also see Our Privacy Policy, section
-                  “Cookies”). We are a provider of the Site, which is an
-                  interactive computer service as those terms are defined under
-                  Section 230 of the Communications Decency Act. Thus, We will
-                  not be treated as the publisher or speaker of any tortious
-                  content posted to the Site. While We do not and cannot review
-                  every message posted by users of the Service, and are not
-                  responsible for any content of these messages, We reserve the
-                  right, but are not obligated, to delete or remove profanity,
-                  obscenities, threats of physical violence or damage to
-                  property, and sensitive personal information including, but
-                  not limited to social security numbers and credit card
-                  information. We also reserve the right, at Our sole discretion
-                  and at any time, to remove any content We may consider
-                  outdated. To decide if a piece of personal information should
-                  be removed, We usually try to determine whether it creates
-                  significant risks of identity theft, financial fraud or other
-                  specific harms. Such determination is made on a case-by-case
-                  basis. In the event We believe that a removal request is aimed
-                  at removal of other, non-personal information, We may deny the
-                  request (please also see Our Privacy Policy, section
-                  “Security”). In the event You notice any such information on
-                  the Site, please report it using the “Report” button located
-                  in the bottom right-hand corner under all reviews or contact
-                  Our customer service department using the following form:
-                  https://www.pissedconsumer.com/contact/legal-inquiry.html.
+                  If You wish to create a new account, You may do so at any
+                  time. You can edit or remove Your previous posts. To edit or
+                  remove Your posts, You can do this through Your user profile,
+                  by submitting a notarized letter, a court order, or by
+                  participating in an LVP (Legal Verification Process). You
+                  acknowledge that the same rules apply to the removal of
+                  cross-posts of Your posts from Our pages across all social
+                  networks. For more details regarding the removal of
+                  information, please visit Our FAQ for Consumers and FAQ for
+                  Companies. You can also add supplemental information to a
+                  review if it was created under Your account (please refer to
+                  Our Privacy Policy, section “Cookies”). Write a Review is a
+                  provider of the Site, which serves as an interactive computer
+                  service as defined under Section 230 of the Communications
+                  Decency Act. Therefore, We will not be treated as the
+                  publisher or speaker of any tortious content posted to the
+                  Site. While We do not and cannot review every message posted
+                  by users of the Service and are not responsible for the
+                  content of these messages, We reserve the right, but are not
+                  obligated, to remove content that includes profanity,
+                  obscenities, threats of physical violence or property damage,
+                  or sensitive personal information such as social security
+                  numbers and credit card details. We also reserve the right, at
+                  Our sole discretion and at any time, to remove any content
+                  that We deem outdated. In deciding whether to remove personal
+                  information, We consider the potential risks of identity
+                  theft, financial fraud, or other harms on a case-by-case
+                  basis. If We believe that a removal request targets
+                  non-personal information, We may deny the request (please also
+                  see Our Privacy Policy, section “Security”). If You come
+                  across any such content on the Site, please report it using
+                  the “Report” button located in the bottom right-hand corner
+                  under all reviews, or contact Our customer service team
+                  through the following form:
+                  https://www.writeareview.com/contact/legal-inquiry.html.
                 </p>
               </section>
 
@@ -235,12 +239,12 @@ export default function TermOfUse() {
                   sublicenses of the foregoing. You expressly authorize Us to
                   display content posted by You on the Site in any part and/or
                   section of the Site. You also expressly authorize Us to share
-                  any posted information with third parties at Our own
-                  discretion. We reserve the right to share any information
-                  posted by You on the Site on Our pages in any and all social
-                  networks.
+                  any posted information with third parties at Our discretion.
+                  We reserve the right to share any information posted by You on
+                  the Site on Our pages in any and all social networks.
                 </p>
               </section>
+
               <section>
                 <h2 className="text-xl font-semibold mb-4 md:ml-10">
                   6. Information Supplied by You
@@ -249,26 +253,26 @@ export default function TermOfUse() {
                   Except as provided otherwise in Our Privacy Policy, We will
                   keep confidential all information supplied by You to Us, and
                   shall use or disclose such information only for the purposes
-                  for which such information was collected, or as required by
-                  law. In particular, We collect information from Our users to
-                  help improve communication and interaction between businesses
-                  and individuals. We only collect Personal Information during
+                  for which it was collected or as required by law. In
+                  particular, We collect information from Our users to improve
+                  communication and interaction between businesses and
+                  individuals. We only collect Personal Information during
                   registration and review submission processes. For more
-                  information please see Our Privacy Policy which shall be
-                  construed as an integral part of this Agreement. Details
-                  regarding how to request information pursuant to the
-                  California Consumer Privacy Act (&quot;CCPA&quot;) can be
-                  found at
-                  https://www.pissedconsumer.com/static/privacy-policy.html. By
+                  details, please see Our Privacy Policy, which is an integral
+                  part of this Agreement. Information regarding how to request
+                  data under the California Consumer Privacy Act
+                  (&quot;CCPA&quot;) can be found at
+                  https://www.writeareview.com/static/privacy-policy.html. By
                   posting information or content to any public area of the Site,
-                  You agree and acknowledge that You can be offered to share
-                  Your personal experience and/or opinions with Us via video
-                  interview and while being recorded. You also agree and
-                  acknowledge that by accepting such an offer You agree with and
+                  You agree and acknowledge that You may be offered the
+                  opportunity to share Your personal experience and/or opinions
+                  with Us via video interview and while being recorded. You also
+                  agree and acknowledge that by accepting such an offer, You
                   consent to the provisions of the Release of Liability and
                   Indemnity Agreement.
                 </p>
               </section>
+
               <section>
                 <h2 className="text-xl font-semibold mb-4 md:ml-10">
                   7. Disclaimer of Warranty
@@ -292,6 +296,7 @@ export default function TermOfUse() {
                   legal proceedings.
                 </p>
               </section>
+
               <section>
                 <h2 className="text-xl font-semibold mb-4 md:ml-10">
                   8. Limitation of Liability
@@ -301,7 +306,7 @@ export default function TermOfUse() {
                   including, but not limited to any direct, indirect, special,
                   punitive, incidental or consequential damages (including, but
                   not limited to damages for loss of business profits, business
-                  interruption, loss of programs or information or loss of
+                  interruption, loss of programs or information, or loss of
                   profits) or any other damages arising in any way out of the
                   availability, use, reliance on, inability to utilize or
                   improper use of the Services, even if We have been advised of
@@ -309,7 +314,7 @@ export default function TermOfUse() {
                   action or omission of action, whether in contract, tort, or
                   otherwise. We do not guarantee accuracy, completeness, or
                   usefulness of any content or information, including, but not
-                  limited to opinions, advice, statements and offers made
+                  limited to opinions, advice, statements, and offers made
                   available through the Site, and neither adopt nor endorse nor
                   are responsible for accuracy or reliability of any such
                   information or content. Under no circumstances shall We be
@@ -324,34 +329,49 @@ export default function TermOfUse() {
                   federal wiretap laws. We will not be liable for any failure by
                   You to obtain the necessary consent from all call
                   participants, and You agree to indemnify, defend, and hold
-                  harmless PissedConsumer.com, its affiliates, and service
-                  providers (including Twilio and Deepgram) from any claims,
-                  damages, or losses asserted in connection with Your failure to
-                  procure necessary consent from a call participant through Your
-                  use of Our call transcription service. We are not liable for
-                  any misuse of the transcripts or recordings or for any
+                  harmless Write a Review, its affiliates, and service providers
+                  (including Twilio and Deepgram) from any claims, damages, or
+                  losses asserted in connection with Your failure to procure
+                  necessary consent from a call participant through Your use of
+                  Our call transcription service. We are not liable for any
+                  misuse of the transcripts or recordings or for any
                   inaccuracies in the automated transcription.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold mb-4 md:ml-10">
-                9. State by State Variations
+                  9. State by State Variations
                 </h2>
                 <p className="text-sm leading-relaxed text-muted-foreground md:px-10">
-                Certain jurisdictions limit the applicability of warranty disclaimers and limitations of liability so the above disclaimers of warranty and limitations of liability may not apply to You.
+                  Certain jurisdictions limit the applicability of warranty
+                  disclaimers and limitations of liability so the above
+                  disclaimers of warranty and limitations of liability may not
+                  apply to You.
                 </p>
               </section>
+
               <section>
                 <h2 className="text-xl font-semibold mb-4 md:ml-10">
-                10. General Provisions
+                  10. General Provisions
                 </h2>
                 <p className="text-sm leading-relaxed text-muted-foreground md:px-10">
-                You agree that Nevada law (regardless of conflicts of law principles) shall govern this Agreement, that any dispute arising out of or relating to this Agreement shall be subject to the exclusive venue of the federal and state courts in the State of Nevada, and that You submit to the exclusive jurisdiction of the federal and state courts in the State of Nevada in connection with the Site or this Agreement. This Agreement, accepted upon registering on the Site or submitting a post, contains the entire agreement between You and Us regarding the use of the Site. Unless otherwise explicitly stated, the Terms will survive termination of Your registration with the Site. If any provision of this Agreement is held invalid, the remainder of this Agreement shall continue in full force and effect.
+                  You agree that Nevada law (regardless of conflicts of law
+                  principles) shall govern this Agreement, that any dispute
+                  arising out of or relating to this Agreement shall be subject
+                  to the exclusive venue of the federal and state courts in the
+                  State of Nevada, and that You submit to the exclusive
+                  jurisdiction of the federal and state courts in the State of
+                  Nevada in connection with the Site or this Agreement. This
+                  Agreement, accepted upon registering on the Site or submitting
+                  a post, contains the entire agreement between You and Us
+                  regarding the use of the Site. Unless otherwise explicitly
+                  stated, the Terms will survive termination of Your
+                  registration with the Site. If any provision of this Agreement
+                  is held invalid, the remainder of this Agreement shall
+                  continue in full force and effect.
                 </p>
               </section>
-              
-             
             </div>
           </CardContent>
         </Card>
